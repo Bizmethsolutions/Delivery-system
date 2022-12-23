@@ -1,0 +1,52 @@
+@import '../../theme/variable.scss';
+.customer-card-list {
+  ul {
+    li {
+        box-shadow: 5px 5px 20px #E5E5E5;
+        border-radius: 6px;
+        padding: 14px 24px 14px 24px;
+        border: 2px solid transparent;
+        background: #fff;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        // &:hover {
+        //   border: 2px solid #000000;
+        //   transition: all .2s ease;
+        // }
+        p {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 19px;
+          color: #000000;
+          margin: 0;
+          padding: 0;
+        }
+        span {
+          font-weight: 800;
+          font-size: 30px;
+          line-height: 36px;
+          text-align: right;
+          color: #000000;
+          svg {
+            margin-left: 35px;
+          }
+        }
+    }
+  }
+}
+.single-primarybtn {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  padding: 0;
+  background: none;
+  border: 0;
+  margin: 10px 0 0 0;
+}

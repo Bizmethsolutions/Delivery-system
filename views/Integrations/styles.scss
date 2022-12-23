@@ -1,0 +1,62 @@
+@import '../../theme/variable.scss';
+.integrations-card {
+    width: 1028px;
+    max-width: 100%;
+    box-shadow: 5px 5px 20px #E5E5E5;
+    border-radius: 6px;
+    padding: 0;
+    margin: 105px auto 0;
+  .integrations-card-body {
+    padding: 0;
+    .integrations-list {
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 17px 30px 17px 20px;
+        cursor: pointer;
+        font-family: $Pangram;
+        font-weight: $medium;
+        font-size: 16px;
+        color: #000000;
+        background: #FAFAFA;
+        width: 100%;
+        float: left;
+        &:first-child {
+          border-radius: 6px 6px 0 0;
+        }
+        &:last-child {
+          border-radius: 0 0 6px 6px;
+        }
+         @media (max-width:767px) {
+           display: unset;
+          }
+        h4 {
+            display: inline-block;
+            font-weight: 500;
+            font-size: 16px;
+            color: #979797;
+            margin: 0 72px 0 0;
+          } 
+          span {
+             @media (max-width:767px) {
+              width: 100%;
+              display: block;
+              padding: 0 0 10px 0;
+            }
+          }
+          img {
+            @media (max-width:767px) {
+              float: right;
+            }
+          }
+      }
+      .active-list {
+        background: #fff !important;
+          h4 {
+            color: #23BC00 !important;
+          }
+        }
+    }
+  }
+}

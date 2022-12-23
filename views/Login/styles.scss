@@ -1,0 +1,63 @@
+
+@import '../../theme/variable.scss';
+.white-bg {
+  background: #fff;
+}
+.login-card {
+    width: 620px;
+    max-width: 94%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    box-shadow: 5px 5px 20px #E5E5E5;
+    border-radius: 6px;
+    padding: 20px 60px 40px 60px;
+    transform: translate(-50%,-50%);
+    @media (max-width: 767px) {
+      padding: 20px 20px 40px 20px;
+    }
+    .sidebar-layout-sider__logo img{
+      width: 280px !important;
+      height: auto !important;
+      margin: 0px;
+    }
+    .login-text {
+      width: 417px;
+      max-width: 100%;
+      font-size: 16px;
+      line-height: 23px;
+      text-align: center;
+      color: #000000;
+      margin: 25px auto 25px;
+    }
+}
+.input-25 {
+  width: 100%;
+  .react-code-input {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    input {
+      width: 80px !important;
+      text-align: center;
+      font-family: "Pangram" !important;
+      font-size: 30px !important;
+      appearance: none;
+      -webkit-appearance: none;
+      -o-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      padding-left: 0 !important;
+    }
+  }
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+
+

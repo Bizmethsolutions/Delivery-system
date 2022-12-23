@@ -1,0 +1,129 @@
+@import '../../theme/variable.scss';
+.profile-setting {
+  padding: 0 35px !important;
+  @media #{$mobile767} {
+    padding: 0 20px !important;
+  }
+}
+.settings-top-header {
+  padding: 24px 24px;
+  justify-content: space-between;
+  @media (max-width: 767px) {
+    padding: 24px 20px;
+  }
+  .settings-top-heading {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: $black;
+  }
+  .settings-top-heading-lg {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+  }
+  .settings-card-close {
+    background: none;
+    padding: 0;
+    border: 0;
+    width: auto;
+  }
+}
+.settings-card {
+  width: 620px;
+  max-width: 94%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  box-shadow: 5px 5px 20px #E5E5E5;
+  border-radius: 6px;
+  padding: 20px 0px 40px 0px;
+  transform: translate(-50%, -50%);
+  @media #{$mobile767} {
+    max-width: 100%;
+    position: static;
+    transform: none;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 20px;
+  }
+  .settings-card-header {
+    padding: 0 34px 0 34px;
+    @media (max-width: 767px) {
+        padding: 0 20px 0 20px;
+     }
+  .settings-card-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: $black;
+    }
+    .profile-title-image {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      img {
+        width: 54px;
+        height: 54px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-left: 10px;
+      }
+    }
+  }
+  .divider-line {
+    margin-bottom: 30px;
+  }
+  .settings-card-body {
+    padding: 0 60px;
+    @media #{$mobile767} {
+      padding: 0 20px;
+    }
+  }
+  .image-preview{
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+}
+.profilebtn {
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 15px;
+}
+.image-preview-edit {
+    position: absolute;
+    right: -5px;
+    bottom: -35px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+.default-bg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    position: relative;
+    right: -15px;
+}
+.profile-wrapper--avatar {
+  &:focus {
+    outline: none;
+  }
+}
+.pad-20 {
+  padding: 0 20px 20px 20px;
+}
+.limit-txt {
+  color: #ccc;
+}

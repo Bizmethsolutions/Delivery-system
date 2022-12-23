@@ -1,0 +1,43 @@
+@import '../../theme/variable.scss';
+.remove-field {
+  cursor: pointer;
+  top: -10px;
+  z-index: 9;
+  position: relative;
+      width: 24px;
+}
+.modalpara {
+  font-size: 16px;
+  line-height: 24px;
+}
+.b2c-customer{
+  background: #8DBEA6;
+  border: 1px solid #8DBEA6;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  height: 28px;
+  padding: 0 10px;
+  min-width: 95px;
+  min-height: 28px;
+  line-height: 26px;
+}
+.b2b-customer{
+  background: #A98EC0;
+  border: 1px solid #A98EC0;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  height: 28px;
+  padding: 0 10px;
+  min-width: 95px;
+  min-height: 28px;
+  line-height: 26px;
+}
+.fullwidth-mobile {
+  @media (max-width:767px) {
+    width: 100%;
+  }
+}

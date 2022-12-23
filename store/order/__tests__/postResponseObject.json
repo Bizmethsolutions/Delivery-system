@@ -1,0 +1,71 @@
+{
+  "message": "ok",
+  "data": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU4YWJhNjMxNzQ0MDllMDA0NWEwOWM5ZiIsInNjb3BlIjpbImZyZWViaXJkIiwicGFydG5lciIsImFkbWluIl0sImNyZWF0ZWRBdCI6MTQ4NzgzNTA5MzExMiwiaWF0IjoxNDg3ODM1MDkzLCJleHAiOjE0OTA0MjcwOTN9.nXRUkTAYRjAc-iKpAzqrg6OZKgdRWL1ch3DBcjhob7k"
+    },
+    {
+      "_id": "58aba63174409e0045a09c9f",
+      "email": "admin@test.com",
+      "__v": 0,
+      "plaid": {
+        "transactions": [],
+        "accounts": []
+      },
+      "stripe": {
+        "verified": false,
+        "transfers": [],
+        "payoutMethods": [],
+        "charges": [],
+        "paymentMethods": []
+      },
+      "uber": {
+        "refreshToken": null,
+        "token": null,
+        "uuid": null,
+        "riderId": null,
+        "promoCode": null,
+        "picture": null,
+        "mobileVerified": false,
+        "email": null,
+        "lastName": null,
+        "firstName": null
+      },
+      "notificationPreferences": [
+        "sms",
+        "push"
+      ],
+      "devices": [],
+      "inviteLink": "https://test-app.link/7vUWbJLAvA",
+      "cashBalance": 0,
+      "terms": true,
+      "status": 10,
+      "enhancedSecurity": {
+        "enabled": false
+      },
+      "activity": {
+        "rideCount": 0,
+        "nextEmailScheduleDate": "2017-02-19T23:49:49.187Z",
+        "loginCount": 0,
+        "lastLogin": "2017-02-19T23:49:49.187Z",
+        "dateEstablished": "2017-02-19T23:49:49.187Z"
+      },
+      "profile": {
+        "name": "rich tillman}",
+        "howDidYouHear": "google",
+        "picture": [],
+        "address": {
+          "city": "canyon country",
+          "postalCode": "91351"
+        }
+      },
+      "roles": [
+        "postcard",
+        "partner",
+        "admin"
+      ],
+      "env": "sandbox",
+      "created": "2017-02-19T23:49:49.187Z"
+    }
+  ]
+}

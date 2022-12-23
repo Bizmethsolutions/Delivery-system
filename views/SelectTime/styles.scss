@@ -1,0 +1,37 @@
+@import '../../theme/variable.scss';
+.text-card-select-md {
+  // font-family: Graphik;
+  // font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+  text-align: left;
+  margin: 6px 0 14px 0;
+}
+.textarea-custom {
+  border: 1px solid #607D8B;
+  box-sizing: border-box;
+  height: 130px;
+  width: 100%;
+  resize: none;
+  // font-family: Graphik;
+  // font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: #607D8B;
+  padding: 14px 16px;
+}
+
+.textarea-custom::-webkit-input-placeholder { /* Edge */
+  color: #607D8B;
+}
+
+.textarea-custom:-ms-input-placeholder { /* Internet Explorer */
+  color: #607D8B;
+}
+
+.textarea-custom::placeholder {
+  color: #607D8B;
+}

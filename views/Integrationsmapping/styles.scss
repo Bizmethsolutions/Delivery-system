@@ -1,0 +1,132 @@
+@import '../../theme/variable.scss';
+.integrations-map-box {
+  width: 797px;
+  max-width: 94%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 20px #E5E5E5;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  @media (max-width: 767px) {
+    margin-top: 25px;
+  }
+  .header-top {
+    padding: 15px 40px;
+    border-bottom: 1px solid #E5E5E5;
+    @media (max-width: 767px) {
+      padding: 15px 20px;
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 30px;
+      color: #000000;
+      margin: 0 0 1px 0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 26px;
+      color: #979797;
+      margin: 0;
+      padding: 0;
+      @media (max-width: 767px) {
+        line-height: 22px;
+      }
+    }
+  }
+  .text-middle {
+    ul {
+      li {
+        border-bottom: 1px solid #E5E5E5;
+        padding: 12px 40px;
+        float: left;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        @media (max-width: 767px) {
+          padding: 12px 20px;
+          display: unset;
+        }
+        &:first-child {
+          @media (max-width: 767px) {
+            display: none;
+          }
+        }
+        &:last-child {
+          border: 0;
+        }
+        .left-sec {
+          width: 50%;
+          float: left;
+          @media (max-width: 767px) {
+            width: 100%;
+            margin-bottom: 10px;
+          }
+          h5 {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 26px;
+            color: #000000;
+            margin: 0;
+          }
+          h4 {
+            font-size: 16px;
+            color: #000000;
+            margin: 0;
+          }
+        }
+        .right-sec {
+          width: 50%;
+          float: left;
+          @media (max-width: 767px) {
+            width: 100%;
+          }
+          h5 {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 26px;
+            color: #000000;
+            margin: 0;
+          }
+          .form-group {
+            margin: 0;
+            .h-55 {
+              min-height: 55px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn-footer {
+    padding: 15px 40px 5px 40px;
+    float: left;
+    width: 100%;
+    @media (max-width: 767px) {
+      padding: 15px 20px;
+      display: unset;
+    }
+    .save-btn {
+      width: 100%;
+      min-height: 66px;
+      background: #000000;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+    .skip-btn {
+      width: 100%;
+      min-height: 26px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: #979797;
+    }
+  }
+}

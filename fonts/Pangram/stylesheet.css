@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Pangram';
+    src: url('Pangram-Medium.eot');
+    src: local('Pangram Medium'), local('Pangram-Medium'),
+        url('Pangram-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Pangram-Medium.woff2') format('woff2'),
+        url('Pangram-Medium.woff') format('woff'),
+        url('Pangram-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram';
+    src: url('Pangram-Light.eot');
+    src: local('Pangram Light'), local('Pangram-Light'),
+        url('Pangram-Light.eot?#iefix') format('embedded-opentype'),
+        url('Pangram-Light.woff2') format('woff2'),
+        url('Pangram-Light.woff') format('woff'),
+        url('Pangram-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram';
+    src: url('Pangram-Regular.eot');
+    src: local('Pangram'), local('Pangram-Regular'),
+        url('Pangram-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Pangram-Regular.woff2') format('woff2'),
+        url('Pangram-Regular.woff') format('woff'),
+        url('Pangram-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram';
+    src: url('Pangram-Bold.eot');
+    src: local('Pangram Bold'), local('Pangram-Bold'),
+        url('Pangram-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Pangram-Bold.woff2') format('woff2'),
+        url('Pangram-Bold.woff') format('woff'),
+        url('Pangram-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram';
+    src: url('Pangram-ExtraBold.eot');
+    src: local('Pangram ExtraBold'), local('Pangram-ExtraBold'),
+        url('Pangram-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Pangram-ExtraBold.woff2') format('woff2'),
+        url('Pangram-ExtraBold.woff') format('woff'),
+        url('Pangram-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram';
+    src: url('Pangram-ExtraLight.eot');
+    src: local('Pangram ExtraLight'), local('Pangram-ExtraLight'),
+        url('Pangram-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Pangram-ExtraLight.woff2') format('woff2'),
+        url('Pangram-ExtraLight.woff') format('woff'),
+        url('Pangram-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram';
+    src: url('Pangram-Black.eot');
+    src: local('Pangram Black'), local('Pangram-Black'),
+        url('Pangram-Black.eot?#iefix') format('embedded-opentype'),
+        url('Pangram-Black.woff2') format('woff2'),
+        url('Pangram-Black.woff') format('woff'),
+        url('Pangram-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+ 

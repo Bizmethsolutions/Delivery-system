@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskRegular.eot');
+    src: url('NiveauGroteskRegular.eot?#iefix') format('embedded-opentype'),
+        url('NiveauGroteskRegular.woff2') format('woff2'),
+        url('NiveauGroteskRegular.woff') format('woff'),
+        url('NiveauGroteskRegular.ttf') format('truetype'),
+        url('NiveauGroteskRegular.svg#NiveauGroteskRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

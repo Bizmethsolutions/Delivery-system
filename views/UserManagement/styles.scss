@@ -1,0 +1,21 @@
+@import '../../theme/variable.scss';
+.table1024 {
+  width: 1040px !important;
+}
+.d-flex.flexmanagement {
+  .settings-top-heading-lg {
+    @media (max-width:767px) {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+  .management-adduser {
+    @media (max-width:767px) {
+      position: fixed;
+      bottom: 15px;
+      left: 15px;
+      right: 15px;
+      width: calc(100% - 30px);
+    }
+  }
+}

@@ -1,0 +1,357 @@
+@import '../../theme/variable.scss';
+.page-header {
+  .react-datepicker-wrapper {
+      position: absolute;
+      right: 30px;
+  }
+  .react-datepicker__tab-loop {
+    .react-datepicker-popper {
+      position: static;
+      transform: none;
+      z-index: 99999;
+    }
+    .react-datepicker__day--selected {
+      background: #000;
+    }
+  }
+  }
+
+
+.table-subtitle.table-subtitlemob {
+  line-height: normal;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 5px;
+  @media (max-width: 767px) {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+.export--icon {
+  position: relative;
+    left: -5px;
+}
+.table-subtitlemob {
+  @media (max-width: 767px) {
+    line-height: 24px !important;
+    margin-bottom: 15px;
+    display: block;
+  }
+}
+.backbtn-dashboard {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000 !important;
+  margin-bottom: 10px;
+  text-decoration: none !important;
+  display: block;
+  svg {
+    margin-right: 5px;
+  }
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+.arrow-loader {
+  width: 20px;
+}
+.table-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 38px;
+}
+.w290 {
+  width: 290px !important;
+}
+.bothbtns {
+  width: 100%;
+  text-align: left;
+  span {
+    float: left;
+    @media (max-width: 767px) {
+      width: 100% !important;
+    }
+      &:first-child {
+      img {
+        @media (max-width: 767px) {
+          margin-right: 12px;
+          margin-left: 3px;
+        }
+      }
+    }
+  }
+}
+.report-flex.w290 {
+  @media (max-width: 767px) {
+    width: 100% !important;
+  }
+}
+.download-receipt-btn {
+    margin-right: 35px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin-top: 10px;
+    img {
+      margin-right: 10px;
+    }
+  @media (max-width: 767px) {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}
+.rdr-Day.is-selected {
+  background: #F9D800 !important;
+}
+.pr-35 {
+  padding-right: 35px !important;
+}
+.heading-sub-sup {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 14px;
+  span {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    margin-right: 10px;
+  }
+}
+.dis-inline {
+  display: inline-block;
+}
+.icon-mr-1 {
+  svg {
+    margin-right: 10px;
+  }
+}
+.report-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  @media #{$tablet} {
+    flex-wrap: wrap;
+  }
+  @media #{$mobile767} {
+    flex-wrap: wrap;
+  }
+  li {
+    width: 100%;
+    margin-right: 20px;
+    @media #{$tablet} {
+      width: 48%;
+      margin-right: 0;
+    }
+    @media #{$mobile767} {
+      width: 100%;
+      margin-right: 0;
+    }
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+.btn-menu {
+  border: 0;
+  background: none;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.666667px;
+  color: #979797;
+  text-align: left;
+
+  padding: 0;
+}
+
+
+// Css::Start
+.yardage__report-wrapper{
+  .page-header {
+    .react-datepicker-wrapper {
+      position: initial;
+    }
+  }
+  .btn-back-header{
+    padding-bottom: 0px;
+  }
+  .page-header {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1292px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .table-title{
+      font-size: 19px;
+      line-height: 28px;
+    }
+    .form-group {
+      margin: 0 0 0 15px;
+      @media (max-width: 1292px) {
+        margin: 15px 15px 0 0;
+      }
+      @media (max-width: 667px) {
+        margin: 15px 0px 0 0;
+      }
+    }
+    .pageheader__inner-right{
+      display: flex;    
+      @media (max-width: 667px) {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+      }   
+    }
+  }
+  .material-textfield select.custom-select {
+    min-height: 50px;
+    padding-top: 21px!important;
+  }
+  .text-value{
+    top: 27px !important;
+  }
+  .export__section{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    h3 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      margin: 0 8px 0;
+    }
+  }
+  .search__filter-section{
+    margin-top: 30px;
+    .search__filter-inner{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      @media (max-width: 568px) {
+        flex-direction: column;
+        align-items: flex-start;
+        .filterbtn-btn{
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+    .search__wrapper{
+      width: 100%;
+      margin-right: 15px;
+      @media (max-width: 568px) {
+        margin-bottom: 20px;
+      }
+      .customer-searchbar{
+        margin: 0px;
+      }
+    }
+  }
+  .work__repot-body {
+    margin-top: 30px;
+    th {
+      white-space: nowrap;
+      background: #fff;
+      color: #000;
+      padding: 10px 15px;
+    }
+    th,td {
+      text-align: center;
+      padding: 16px;
+      overflow-wrap: break-word;
+    }
+  }  
+  .ant-pagination .ant-pagination-item-active{
+    background: #1e546c;
+    border-color: #1e546c;
+  }
+  .totalcost-wrapper{
+    width: 305px;
+    max-width: 100%;
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    h5 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: #000;
+      padding: 0;
+      margin: 0;
+      span {
+          float: right;
+      }
+    }
+  }
+}
+.reports__filter-wrapper{
+  top: 306px !important;
+  right: 10px;
+  left: auto !important;
+  padding-left: 15px !important;
+  .ant-popover-arrow{
+    display: block !important;
+    left: 84% !important;
+  }
+  .checkmark{
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .filter__body{
+    height: calc(100vh - 475px);
+  }
+  .filter__footer{
+    margin: 12px 0px;
+    padding: 0 15px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    .apply-btn{
+      width: 100%;
+      max-width: 100%;
+      min-height: 60px;
+    }
+  } 
+}
+// Css::End
+
+.search__wrapper.search__wrapper-zero {
+  margin-right: 0 !important;
+}
+.filter-ml {
+  margin-left: 15px;
+  @media (max-width: 568px) {
+     margin-left: 0;
+  }
+}
+
+.custome__date-picker{
+  .react-datepicker__header{
+    margin: 0;
+    padding: 8px 0;
+  }
+  .react-datepicker__tab-loop,.react-datepicker-popper,.react-datepicker{
+    width: 100%;
+  }
+  .react-datepicker__year-container{
+    margin: 0px;
+    .react-datepicker__year-container-text{
+      border-bottom: 1px solid #E5E5E5;
+      border-left: 1px solid #E5E5E5;
+      padding: 6px 0;
+    }
+  }
+}

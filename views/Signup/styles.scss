@@ -1,0 +1,32 @@
+@import '../../theme/variable.scss';
+.agent-signup {
+  .agent-signup-header {
+    width: 100%;
+    padding: 10px 30px;
+      .agent-signup-title {
+        font-weight: $bold;
+        font-size: 22px;
+        line-height: 26px;
+        color: $black;
+      }
+      .agent-signup-progress {
+        width: 600px;
+        margin: 0 auto;
+        .progress-bar-text {
+        }
+      }
+      .agent-signup-cta {
+        .btn-dark {
+          min-width: 120px;
+        }
+      }
+  }
+  .agent-signup-inner {
+    // height: calc(100vh - 90px);
+    // overflow: auto;
+    .agent-signup-body {
+      max-width: 621px;
+      margin: 0 auto;
+    }
+  }
+}

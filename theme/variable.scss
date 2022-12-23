@@ -1,0 +1,80 @@
+/* media queries */
+/* iPadPro needs work */
+// $iPadPro: "(min-device-width: 1024px) and (max-device-width: 1366px)";
+// $tablet: "(min-width: 768px) and (max-width: 1024px)";
+// $tabletLandscape: "(min-width: 768px) and (max-width: 1024px) and (orientation : landscape)";
+// $desktop: "(min-width: 1024px)";
+// $phone: "(min-device-width: 320px) and (max-device-width: 736px)";
+// $phone6: "(min-device-width: 375px) and (max-device-width: 667px)";
+// $phone6Plus: "(min-device-width: 414px) and (max-device-width: 736px)";
+
+// New Media Queries
+$iPadPro: "(min-width: 1024px) and (max-width: 1366px)";
+$desktop1300: "(max-width: 1300px)";
+$tablet: "(min-width: 768px) and (max-width: 1024px)";
+$tabletLandscape: "(min-width: 768px) and (max-width: 1024px) and (orientation : landscape)";
+$desktop: "(min-width: 1024px)";
+$phone: "(min-width: 320px) and (max-width: 736px)";
+$phone6: "(min-width: 375px) and (max-width: 667px)";
+$phone6Plus: "(min-width: 414px) and (max-width: 736px)";
+$tablet980: "(max-width: 980px)";
+$tablet768: "(max-width: 768px)";
+$mobile767: "(max-width: 767px)";
+$mobile367: "(max-width: 367px)";
+// New Media Queries
+
+$Pangram: 'Pangram';
+
+// Color
+$green: #19D692;
+$skyBlue: #00E1E1;
+$blue: #030DCF;
+$lightBlue: #70CEF5;
+$white: #fff;
+$black: #000;
+$red: #DF0000;
+$gray: #979797;
+$graybg: #F5F5F5;
+$purple: #9013FE;
+$lightgreen: #23BC00;
+$yellow: #F9D800;
+$orange: #FFA300;
+$darkblue: #0000F9;
+$darkgreen: #006400;
+$sky: #1DAEE4;
+
+$purplelight: #9011FF;
+$yellowlight: #EED920;
+$greenlight: #79C026;
+
+
+// yard Color
+$yardred: #F2290D;
+$yardpurple: #9013FE;
+$yardlightgreen: #23BC00;
+$yardyellow: #F9D800;
+$yardorange: #FFA300;
+$yardblue: #0000F9;
+$yarddarkgreen: #006400;
+$yardsky: #1DAEE4;
+$yardlightpurple: #B19CD9;
+$yardpink: #FF9BA3;
+$yardbrown: #484a4d;
+
+$redbtn: #F90B0B;
+
+
+// font Weight
+$xlbold: 900;
+$exbold: 800;
+$bold: 700;
+$semibold: 600;
+$medium: 500;
+$normal: 400;
+// font Weight
+
+@mixin list-style-none {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

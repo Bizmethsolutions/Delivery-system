@@ -1,0 +1,50 @@
+{
+  "message": "ok",
+  "data": [
+      {
+    "_id" : "589873dd1755d14ca7aef16d",
+    "email" : "robert.cuadra+postcard@dws.la",
+    "smsVerificationCode" : 1234,
+    "password" : "$2a$05$jAAV.o2lkWsCksdVXco7gut4.irTX4iY748eVDkcJ3WFV6DmoOxBK",
+    "mobile" : "13104248021",
+    "citrus" : {
+        "uuid" : ""
+    },
+    "stripe" : {
+        "verified" : false,
+        "payouts" : [],
+        "charges" : [],
+        "paymentMethods" : []
+    },
+    "terms" : false,
+    "status" : 10,
+    "notificationPreferences" : [],
+    "enhancedSecurity" : {
+        "enabled" : false
+    },
+    "devices" : [],
+    "cashBalance" : 0,
+    "activity" : {
+        "rideCount" : 0,
+        "nextEmailScheduleDate" : "2017-02-06T13:02:21.269Z",
+        "loginCount" : 0,
+        "lastLogin" : "2017-02-06T13:02:21.269Z",
+        "dateEstablished" :"2017-02-06T13:02:21.269Z"
+    },
+    "profile" : {
+        "name" : "Felix Unger",
+        "address" : {
+            "city" : "NYC",
+            "postalCode" : "12345"
+        },
+        "picture" : []
+    },
+    "roles" : [ 
+        "postcard"
+    ],
+    "env" : "test",
+    "created" : "2017-02-06T13:02:21.269Z",
+    "__v" : 0
+}
+  ]
+}

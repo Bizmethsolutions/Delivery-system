@@ -1,0 +1,73 @@
+@import '../../theme/variable.scss';
+.integrations-map-box {
+  .header-top {
+    .btn-disab {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      color: #F5F5F5;
+      width: 289px;
+      min-height: 48px;
+      background: #F90B0B;
+      border: 2px solid #F90B0B;
+      box-sizing: border-box;
+      border-radius: 4px;
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  }
+  .header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 10px 14px 40px;
+    @media (max-width: 767px) {
+      padding: 14px 20px 14px 20px;
+      display: unset;
+      float: left;
+      width: 100%;
+    }
+  }
+  .quickbook-details {
+    padding: 20px 40px;
+    @media (max-width: 767px) {
+      padding: 20px 20px;
+      float: left;
+    }
+    ul {
+      li {
+        margin-bottom: 14px;
+        &:last-child {
+          margin: 0;
+        }
+        h4 {
+          font-size: 14px;
+          line-height: 22px;
+          color: #000000;
+          font-weight: 600;
+          margin: 0;
+        }
+        h5 {
+          font-size: 14px;
+          line-height: 22px;
+          color: #000000;
+          margin: 0;
+        }
+        .status {
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 22px;
+          color: #000000;
+        }
+        .active {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 26px;
+          color: #00C577;
+        }
+      }
+    }
+  }
+}
